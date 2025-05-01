@@ -1,0 +1,26 @@
+{
+    "name": "myoutdeskllc/salesforce-php-query-builder",
+    "description": "library to help build soql queries for use with the rest api",
+    "type": "library",
+    "require-dev": {
+        "pestphp/pest": "^3.8",
+        "phpstan/phpstan": "^2.1"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Myoutdeskllc\\SalesforcePhpQueryBuilder\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "JL",
+            "email": "jay@jaysonlindsley.dev"
+        }
+    ],
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
